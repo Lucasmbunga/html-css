@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: darkgray;
+}
+header{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0;
+    margin-right: 8px;
+    width: 100%;
+    line-height: 1;
+    max-height: 32px;
+    margin-right: 8px;
+
+}
+#titulo-header{
+    color: white;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    align-items: center;
+}

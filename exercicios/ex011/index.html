@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="C:\Estudos\html-css\exercicios\ex004/favicon1.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Imagens dinâmicas</h1>
+
+    <p>Tende abrir esse site em vários despositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:520px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/foto-mp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Jaden Smith Feat. Taylor Felt - Life in a Year.mp3" controls autoplay ></audio>
+    <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/Jaden Smith Feat. Taylor Felt - Life in a Year.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+
+    <h1>Reproduzindo vídeos</h1>
+
+    <video  src="midia-video/jaden_smith_life_in_a_year_lyrics_ft._taylor_felt_from_life_in_a_year_movie_soundtrack_h264_37000.mp4" controls autoplay>
+    </video>
+    
+</body>
+</html>

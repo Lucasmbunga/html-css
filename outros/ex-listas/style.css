@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #005c99;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+section {
+  padding: 20px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #005c99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

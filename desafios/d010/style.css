@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body{
+ margin:0;
+ background-color: #05f58557;
+ text-align: justify;
+ 
+}
+h1{
+    padding-top: 15px;
+    margin: 0;
+    color: #094417da;
+    font-size: 2em;
+}
+h2{
+    background-image: linear-gradient(90deg, rgba(95, 168, 131, 0.646), rgba(255, 255, 255, 0.619));
+    color: darkgreen;
+
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+p{
+    padding:1px  15px;
+
+}
+img{
+    margin: auto;
+}
+
+#header-pagina{
+    padding: 10px;
+    background-image: linear-gradient(0deg, rgb(10, 78, 43),   #05f585bb);
+    color: white;
+    text-align:center;
+    margin:0px;
+}
+#titulo-header{
+    color: white;
+    padding: 0;
+}
+nav{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    color: white;
+    margin: 0 15px ;
+}
+.nav:hover{
+    color: #03ff5b;
+    padding: 0;
+    text-decoration: underline;
+}
+main{
+    margin: 0 100px 15px 100px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 0 0 15px 15px;
+} 
+article{
+    margin: 0 15px;
+    text-indent: 20px;
+}
+iframe{
+    margin: 0%;
+}
+aside{
+    margin: 15px 15px;
+    border-radius: 15px;
+    background-color: rgba(73, 183, 146, 0.386);
+}
+#header-aside{
+    height: 50px;
+    background-color: rgba(32, 163, 91, 0.833);
+    color: white;
+    margin: 0px;
+    border-radius:15px  15px 0 0;
+    text-align: center;
+}
+#header-aside p{
+    padding: 15px;
+    font-weight: bold;
+}
+div{
+    list-style-image:url(https://icons8.com/icon/27/icon) ;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    
+}
+#ul-aside{
+    margin-right: 300px;
+    list-style-position:outside;
+    padding: 30px;
+}
+aside ul li a{
+    color: black;
+}
+footer{
+    margin:0;
+    background-color: darkgreen;
+    padding: 0.25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.692);
+}
+footer p a{
+    color: white;
+    font-weight: bold;
+}

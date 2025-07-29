@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos aprendidos até aqui</title>
+    <link rel="shortcut icon" href="android-chrome-192x192 3.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Juntando todos os conhecimentos adquiridos</h1>
+    <hr>
+    <h2>Tags aprendidos</h2>
+
+    <ol>
+        <li>Conceitos básicos de HTML5 e CSS3</li>
+        <li>Estrutura de um documento HTML</li>
+        <li>Parágrafos e quebras de linhas</li>
+            <dl>
+                <dt>&lt;p&gt;</dt>
+                <dd>Para criar um <strong>parágrafo, usamos</strong> a tag &lt;p&gt;. E se precisarmos criar vários parágrafos, então temos que usar isso várias vezes.</dd>
+                <dt>&lt;br&gt;</dt>
+                <dd>E para fazer uma <strong>quebra de linha</strong>, usamos a tag &lt;br&gt; no ponto em que queremos quebrar.</dd> 
+
+            </dl>
+        <li>Como inserir imagens e ícone de favoritos</li>
+            <dl>
+                <dt>&lt;img&gt;</dt>
+                <dd>Para inserir imagens, usamos a tag &lt;img&gt; que contém dois parámetros, que são: src, que indica a origem da imagem e alt que é um texto alternativo que vai ser exibido no caso em que a imagem não possa ser carregada ou visualizada.
+                    <p>Também podemos inserir legendas em imagens, usando a tag &lt;figure&gt;, onde dentro desta tag é que iremos inserir a tag da imagem e por sua vez iremos inserir as legendas com a tag &lt;figcaption&gt; como por exemplo:</p>
+                </dd>
+                <figure>
+                    <img src="C:\Users\berni\OneDrive\Imagens/istockphoto-1587713852-612x612.jpg" alt="Exemplo de como inserir uma imagem">
+                    <figcaption>Inserindo uma imagem</figcaption>
+                </figure>
+                <dt>&lt;link:favicon&gt;</dt>
+                <dd>E para iserir um ícone de favoritos, usamos a tag &lt;link&gt; dentro do cabeçalho.</dd>
+            </dl>
+            <li>Hierarquia de títulos</li>
+            <p>A hierarquia dos títulos varia de h1 até h6, onde o h1 é o título principal(de maior importância) e o h6(de menor importância)</p>
+            <dl>
+                <dt>&lt;h1&gt;</dt>
+                <dd>A tag &lt;h1&gt; é usado para determinar o título principal.</dd>
+                <p>E assim os títulos que se seguem vão de h2 até h6 em ordem de importância.</p>
+            </dl>
+            <li>Formatação de Textos</li>
+            <p>Para formatar um texto são utilizadas várias tags pelas quais:</p>
+            <dl>
+                <dt>&lt;strong&gt;</dt>
+                <dd>A tag &lt;strong&gt; é usada para marcar uma palavra que possui uma força na frase(para negritar).</dd>
+                <dt>&lt;em&gt;</dt>
+                <dd>Usamos a tag &lt;em&gt; para colocar palavras em itálico, ou seja, para dar ênfase nas palavras.</dd>
+                <dt>&lt;ins&gt;</dt>
+                <dd>Usamos a tag &lt;ins&gt; para marcar uma palavra que deve ser lida e prestada a atenção, ou seja, ela sublinha as palavras.</dd>
+
+                <dt>&lt;del&gt;</dt>
+                <dd>Esta tag é usada para determinar uma palavra deletada ou tachada, ou seja, uma palavra que até possa ser lida, mas deve ser desconsiderada.</dd>
+
+                <dt>&lt;sup&gt;</dt>
+                <dd>Usamos esta tag para escrever palavras sobrescritas, ou seja, expressões como: X<sup>2</sup>-5X+6.</dd>
+                <dt>&lt;sub&gt;</dt>
+                <dd>Usamos a tag &lt;sub&gt; para escrever palavras subscritas, ou seja, expressões como: H<sub>2</sub>O.</dd>
+
+            </dl>
+            <li>Listas em HTML</li>
+            <p>Existem listas ordenadas, listas não ordenadas e listas de definições.</p>
+            <ol type="a">
+             <li>Listas ordenadas</li> 
+             <dl>
+                <dt>&lt;ol&gt;(ordered lists)</dt>
+                <dd>Para inserir uma lista ordenada, usamos a tag &lt;ol&gt; para delimitar  a lista, e a tag &lt;li&gt;(list item) para identificar cada ítem da lista.
+                    <p>Esta tag tag também pode conter um atributo type, que pode tomar os seguintes valores: 1,A,a,I,i.</p>
+                </dd>
+            </dl>
+            <li>Listas não ordenadas(demarcadas)</li>  
+            <dl>
+                <dt>&lt;ul&gt;(Unordered lists</dt>
+                <dd>Para criar uma lista não ordenada(com demarcadores), usamos a tag &lt;ul&gt; para delimitar a lista, e a tag &lt;li&gt; para identificar cada ítem da  lista.
+                    <p>Assim como a tag anterior, esta tag também pode conter um atributo type, que pode tomar os seguintes valore: disc, circle e square.</p>
+                </dd>
+            </dl>
+            <li>Lista de definições</li>
+            <dl>
+                <dt>&lt;dl&gt;(definition list)</dt>
+                <dd>Para criar uma lista de difinições, usamos a tag &lt;dl&gt; para delimitar a lista, e a tag &lt;li&gt; para identificar cada ítem da lista.</dd>
+            </dl>
+
+            </ol>
+            
+        <li>Ligações por toda a parte</li>
+        <p>Para inserir um link, usamos âncoras ou seja, a tag &lt;a&gt; para delimitar o link, e esta tag pode tomar vários atributos, das quais:</p> 
+        <p>target, rel. Exemplo:</p> 
+        <a href="https:a//www.google.com" target="-blank" rel="external">Link do google</a>
+
+        <ol type="a">
+            <li>Links para download</li>
+            <p>Para criar um link de download, temos alguns atributos a levar em consideração, que são; download que especifica o nome do arquivo a ser baixado e o seu formato, e o type para informar ao navegador o tipo de arquivo está sendo baixado.</p>
+            <p>Exemplo:</p>
+            <p><a href="livro/meulivro.pdf">Baixe aqui o meu livro PDF</a></p>
+            <p><a href="livro/meulivro.zip.zip">Baixe aqui o seu livro em formato zip</a></p>
+        </ol>  
+    </ol>
+    
+
+
+
+</body>
+</html>
