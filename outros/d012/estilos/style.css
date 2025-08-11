@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+main{
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 50%;
+    min-width: 20%;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px 15px rgba(0, 0, 0, 0.037);
+}
+section{
+    margin: 0px 30px;
+}
+section p{
+    padding: 10px;
+}
