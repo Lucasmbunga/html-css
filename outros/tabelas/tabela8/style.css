@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+col.c1{
+    background-color: #E3C386;
+}
+col.c2{
+    background-color: #DEA12F;
+}
+col.c3{
+    background-color: #AC7C24;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(201, 196, 196);
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(99, 98, 98);
+}
+.c1{
+    background-color: white;
+}
